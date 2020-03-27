@@ -1,0 +1,2 @@
+0 11-23 * * * "$(command -v bash)" -c 'source /webapps/mrc_mis/bin/activate && cd /webapps/mrc_mis/mrc_mis/api/ && python mrc_msd_receive_distribution.py'
+30 11-23 * * * "$(command -v bash)" -c 'source /webapps/mrc_mis/bin/activate && cd /webapps/mrc_mis/mrc_mis/api/ && python mrc_msd_receive_nets.py'
